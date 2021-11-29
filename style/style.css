@@ -97,7 +97,7 @@ body{
   display: none;
 }
 .d-block{
-  display: block;
+  display: block !important;
 }
 
 
@@ -117,7 +117,7 @@ body{
   margin-bottom: 1rem;
   font-weight: bold;
 }
-.form-register  [class ^='form-group'] > p{
+[class ^='form-group'] > p{
   display: none;
   color: gray;
 }
@@ -137,7 +137,6 @@ body{
 
 }
 .form-register  [class ^='form-input'] > i{
-  display: none;
   position: absolute;
   right: 0.4rem;
   top: 0.6rem;
